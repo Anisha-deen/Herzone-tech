@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERZONE TECHNOLOGIES | Innovation Beyond Limits</title>
+    <meta name="description" content="HERZONE TECHNOLOGIES is a premium digital technology agency turning ideas into powerful digital solutions: Website Development, Poster Design, Video Editing, and Luxury Branding.">
+    <meta name="keywords" content="Herzone Tech, Herzone Technologies, Website Development, Video Editing, Poster Design, Web Design Agency, Luxury Tech Branding">
+    <meta name="author" content="Herzone Technologies">
+    
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Vector Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Modern Premium Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader-portal">
+            <div class="portal-ring ring-outer"></div>
+            <div class="portal-ring ring-inner"></div>
+            <img src="assets/logo.png" alt="HZ Logo" class="loader-logo-img">
+        </div>
+    </div>
+
+    <!-- Mouse-following Glowing Orb Atmospheric Effect -->
+    <div class="mouse-glow" id="mouse-glow"></div>
+    <div class="custom-cursor-dot" id="cursor-dot"></div>
+    <div class="custom-cursor-outline" id="cursor-outline"></div>
+
+    <!-- Animated Ambient Gradient Blobs in Background -->
+    <div class="ambient-blobs-wrapper">
+        <div class="ambient-blob blob-1"></div>
+        <div class="ambient-blob blob-2"></div>
+        <div class="ambient-blob blob-3"></div>
+    </div>
+
+    <!-- Glassmorphic Floating Header Header Navigation -->
+    <header class="main-header" id="main-header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="HERZONE TECHNOLOGIES Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-brand">HERZONE</span>
+                    <span class="logo-sub">TECHNOLOGIES</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-cta-group">
+                <a href="#contact" class="btn btn-nav">Get in Touch</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+        <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close Menu">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <ul class="mobile-nav-list">
+            <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+            <li><a href="#features" class="mobile-nav-link">Features</a></li>
+            <li><a href="#testimonials" class="mobile-nav-link">Reviews</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            <li><a href="#contact" class="btn btn-mobile-cta">Get Started</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Wrapper -->
+    <main>
+
+        <section class="hero-section" id="hero">
+            <div class="section-container">
+                <div class="hero-grid">
+                <div class="hero-content reveal-item">
+                    <div class="badge-glow">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Next-Gen Digital Solutions</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Innovation <br>
+                        <span class="gradient-text">Beyond Limits</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        We turn ideas into powerful digital solutions that help your brand grow, stand out, and succeed. Experience luxury styling meets peak engineering.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary btn-glow">
+                            <span>Get Started</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#portfolio" class="btn btn-secondary">
+                            <span>View Portfolio</span>
+                            <i class="fa-solid fa-images"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal-item">
+                    <div class="hero-mockup-container">
+                        <div class="glow-backlight"></div>
+                        <!-- Main 3D Laptop/Mobile Render Asset -->
+                        <img src="assets/hero_mockup.png" alt="Futuristic 3D Device Mockup" class="main-mockup-img floating-element">
+                        
+                        <!-- Floating Glassmorphic UI Micro Cards -->
+                        <div class="floating-card card-1 glass-card floating-slow">
+                            <div class="card-icon"><i class="fa-solid fa-laptop-code text-gold"></i></div>
+                            <div class="card-desc">
+                                <h4>Development</h4>
+                                <p>SaaS &amp; Custom Admin Panels</p>
+                            </div>
+                        </div>
+
+                        <div class="floating-card card-2 glass-card floating-fast">
+                            <div class="card-icon"><i class="fa-solid fa-wand-magic-sparkles text-gold"></i></div>
+                            <div class="card-desc">
+                                <h4>Design</h4>
+                                <p>Premium UX &amp; Posters</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div><!-- /.hero-grid -->
+            </div><!-- /.section-container -->
+            
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About Section">
+                <div class="indicator-mouse">
+                    <div class="indicator-wheel"></div>
+                </div>
+                <span>Explore Agency</span>
+            </a>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-container">
+                <div class="about-grid">
+                    <div class="about-details reveal-item">
+                        <h3 class="section-label">WHO WE ARE</h3>
+                        <h2 class="section-title">We craft experiences that <span class="gradient-text">transcend ordinary</span> digital boundaries.</h2>
+                        <p class="about-p">
+                            At <strong>HERZONE TECHNOLOGIES</strong>, we merge scientific precision with high-fashion aesthetics. As a leading boutique digital technology agency, our mission is to build highly functional systems, eye-catching creative posters, and engaging multimedia campaigns for ambitious brands worldwide.
+                        </p>
+                        <p class="about-p secondary">
+                            We pride ourselves on our technical excellence, custom-curated visuals, and a deep commitment to high-end service. Whether you require an enterprise website, professional reels editing, or custom social media covers, we engineer and paint every detail to absolute perfection.
+                        </p>
+                        <div class="about-cta-wrapper">
+                            <a href="#services" class="btn btn-primary">Discover Services</a>
+                        </div>
+                    </div>
+
+                    <div class="about-stats reveal-item">
+                        <div class="stats-grid">
+                            <!-- Stat Card 1 -->
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon-wrapper">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div class="stat-number-wrapper">
+                                    <span class="stat-number" data-target="10">0</span>
+                                </div>
+                                <h4 class="stat-title">Websites Developed</h4>
+                                <p class="stat-subtitle">Business, portfolio & web portals</p>
+                            </div>
+
+                            <!-- Stat Card 2 -->
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon-wrapper">
+                                    <i class="fa-solid fa-clapperboard"></i>
+                                </div>
+                                <div class="stat-number-wrapper">
+                                    <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+                                </div>
+                                <h4 class="stat-title">Video Projects</h4>
+                                <p class="stat-subtitle">High-retention reels & promos</p>
+                            </div>
+
+                            <!-- Stat Card 3 -->
+                            <div class="stat-card glass-card span-2">
+                                <div class="stat-icon-wrapper">
+                                    <i class="fa-solid fa-compass-drafting"></i>
+                                </div>
+                                <div class="stat-number-wrapper">
+                                    <span class="stat-number" data-target="20">0</span><span class="stat-plus">+</span>
+                                </div>
+                                <h4 class="stat-title">Creative Posters</h4>
+                                <p class="stat-subtitle">Social ads, banners & digital artwork</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <div class="section-container">
+                <div class="section-header reveal-item">
+                    <h3 class="section-label">WHAT WE DELIVER</h3>
+                    <h2 class="section-title">Premium Suite of <span class="gradient-text">Elite Capabilities</span></h2>
+                    <p class="section-subtitle">We deploy bespoke digital technology and cinematic solutions meticulously aligned with elite agency standards.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <div class="service-card glass-card reveal-item">
+                        <div class="service-glow-border"></div>
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="service-title">Website Development</h3>
+                        <p class="service-description">
+                            Engineered from the ground up for maximum visual power, lightning speed, and semantic SEO superiority.
+                        </p>
+                        <ul class="service-list-details">
+                            <li><i class="fa-solid fa-caret-right"></i> High-conversion Business websites</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Stunning custom Portfolio websites</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Interactive College/Institutional sites</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Bespoke dashboard Admin panels</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="service-card glass-card reveal-item">
+                        <div class="service-glow-border"></div>
+                        <div class="service-icon">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                        </div>
+                        <h3 class="service-title">Poster Design</h3>
+                        <p class="service-description">
+                            We capture brand philosophies using custom digital art, rich contrast layouts, and premium graphics.
+                        </p>
+                        <ul class="service-list-details">
+                            <li><i class="fa-solid fa-caret-right"></i> Aesthetic Instagram grids & posts</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Vibrant and high-impact Event posters</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Luxury Advertisement creatives</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Tailored print-ready branding art</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="service-card glass-card reveal-item">
+                        <div class="service-glow-border"></div>
+                        <div class="service-icon">
+                            <i class="fa-solid fa-clapperboard"></i>
+                        </div>
+                        <h3 class="service-title">Video Editing</h3>
+                        <p class="service-description">
+                            Cinematic grading, high-retention audio design, and smooth transitions tailored to capture attention instantly.
+                        </p>
+                        <ul class="service-list-details">
+                            <li><i class="fa-solid fa-caret-right"></i> Viral high-retention Reels editing</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Premium brand Promo videos</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Engaging YouTube content edits</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Advanced sound and motion graphics</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 4 -->
+                    <div class="service-card glass-card reveal-item">
+                        <div class="service-glow-border"></div>
+                        <div class="service-icon">
+                            <i class="fa-solid fa-crop-simple"></i>
+                        </div>
+                        <h3 class="service-title">Banner Design</h3>
+                        <p class="service-description">
+                            Create a striking, polished brand introduction across every online storefront, social platform, and portal.
+                        </p>
+                        <ul class="service-list-details">
+                            <li><i class="fa-solid fa-caret-right"></i> High-resolution YouTube banners</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Custom e-commerce Shop banners</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Social media branding cover layouts</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Dynamic email & marketing banners</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio-section" id="portfolio">
+            <div class="section-container">
+                <div class="section-header reveal-item">
+                    <h3 class="section-label">SELECTED WORKS</h3>
+                    <h2 class="section-title">The Showcase of <span class="gradient-text">Digital Mastery</span></h2>
+                    <p class="section-subtitle">Browse a selected archive of our recent websites, premium designs, and post-production reels projects.</p>
+                </div>
+
+                <!-- Category Filtering Navigation -->
+                <div class="portfolio-filters reveal-item">
+                    <button class="filter-btn active" data-filter="all">All Works</button>
+                    <button class="filter-btn" data-filter="web">Websites</button>
+                    <button class="filter-btn" data-filter="poster">Posters</button>
+                    <button class="filter-btn" data-filter="video">Video Editing</button>
+                    <button class="filter-btn" data-filter="banner">Banners</button>
+                </div>
+
+                <!-- Masonry Gallery Layout -->
+                <div class="portfolio-grid reveal-item">
+                    <!-- Portfolio Item 1 (Web) -->
+                    <div class="portfolio-item glass-card" data-category="web">
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/portfolio_web.png" alt="SaaS Dashboard Design Web Development" class="portfolio-img">
+                            <div class="portfolio-hover-overlay">
+                                <span class="portfolio-badge">Website Dev</span>
+                                <h3 class="portfolio-item-title">Enterprise SaaS Portal</h3>
+                                <p class="portfolio-item-desc">High-tech glassmorphic web dashboard with real-time stats.</p>
+                                <a href="assets/portfolio_web.png" target="_blank" class="portfolio-view-btn" aria-label="Expand image view"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 2 (Poster) -->
+                    <div class="portfolio-item glass-card" data-category="poster">
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/portfolio_poster.png" alt="Futuristic Tech Poster Design" class="portfolio-img">
+                            <div class="portfolio-hover-overlay">
+                                <span class="portfolio-badge">Poster Design</span>
+                                <h3 class="portfolio-item-title">Cyberpunk Campaign Poster</h3>
+                                <p class="portfolio-item-desc">A deep wine and gold holographic branding showcase poster.</p>
+                                <a href="assets/portfolio_poster.png" target="_blank" class="portfolio-view-btn" aria-label="Expand image view"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 3 (Video) -->
+                    <div class="portfolio-item glass-card video-portfolio-item" data-category="video" id="video-portfolio-card">
+                        <div class="portfolio-image-wrapper">
+                            <!-- HTML5 video used as thumbnail — shows first frame, no autoplay, muted -->
+                            <video
+                                class="portfolio-img portfolio-video-thumb"
+                                src="assets/Portfoilo_video.mp4"
+                                muted
+                                playsinline
+                                preload="metadata"
+                                aria-label="Cinematic Tech Promo video thumbnail"
+                            ></video>
+                            <!-- Big centered play button always visible -->
+                            <button class="video-play-btn" id="portfolio-play-btn" aria-label="Play Cinematic Tech Promo video">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                            <div class="portfolio-hover-overlay">
+                                <span class="portfolio-badge">Video Editing</span>
+                                <h3 class="portfolio-item-title">Cinematic Tech Promo</h3>
+                                <p class="portfolio-item-desc">Motion graphics, transitions, and immersive soundscapes.</p>
+                                <button class="portfolio-view-btn video-open-btn" aria-label="Play video in fullscreen">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 4 (Banner) -->
+                    <div class="portfolio-item glass-card" data-category="banner">
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/portfolio_banner.png" alt="Luxury YouTube Banner Cover Design" class="portfolio-img">
+                            <div class="portfolio-hover-overlay">
+                                <span class="portfolio-badge">Banner Design</span>
+                                <h3 class="portfolio-item-title">Omni-Channel Brand Cover</h3>
+                                <p class="portfolio-item-desc">Sleek social cover matching a premium corporate tech theme.</p>
+                                <a href="assets/portfolio_banner.png" target="_blank" class="portfolio-view-btn" aria-label="Expand image view"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section" id="features">
+            <div class="section-container">
+                <div class="section-header reveal-item">
+                    <h3 class="section-label">WHY CHOOSE US</h3>
+                    <h2 class="section-title">Engineered to Provide <span class="gradient-text">Infinite Value</span></h2>
+                    <p class="section-subtitle">We do not just construct deliverables; we curate technological advantage, artistic distinction, and elite scalability.</p>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card glass-card reveal-item">
+                        <div class="feature-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                        <h3 class="feature-title">Creative Designs</h3>
+                        <p class="feature-text">Every detail is hand-drawn and styled to ensure your startup projects a high-end, premium tech aesthetic.</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card glass-card reveal-item">
+                        <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                        <h3 class="feature-title">Fast Delivery</h3>
+                        <p class="feature-text">Operating with agile methodologies, we meet tight product development deadlines without sacrificing premium craftsmanship.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card glass-card reveal-item">
+                        <div class="feature-icon"><i class="fa-solid fa-mobile-button"></i></div>
+                        <h3 class="feature-title">Modern UI/UX</h3>
+                        <p class="feature-text">Following Apple's clean, minimalist layout philosophies and premium SaaS animation principles.</p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="feature-card glass-card reveal-item">
+                        <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3 class="feature-title">SEO Friendly</h3>
+                        <p class="feature-text">Search-engine optimized HTML tag layouts, clean structures, and speed optimizations built-in right from the start.</p>
+                    </div>
+
+                    <!-- Feature 5 -->
+                    <div class="feature-card glass-card reveal-item">
+                        <div class="feature-icon"><i class="fa-solid fa-maximize"></i></div>
+                        <h3 class="feature-title">Mobile Responsive</h3>
+                        <p class="feature-text">Pixel-perfect liquid scaling logic that looks absolutely spectacular on everything from smartwatches to giant desktop displays.</p>
+                    </div>
+
+                    <!-- Feature 6 -->
+                    <div class="feature-card glass-card reveal-item">
+                        <div class="feature-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                        <h3 class="feature-title">Affordable Pricing</h3>
+                        <p class="feature-text">We make premium global agency standards accessible, providing custom budgets suited to your startup growth requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section" id="testimonials">
+            <div class="section-container">
+                <div class="section-header reveal-item">
+                    <h3 class="section-label">CLIENT CORNER</h3>
+                    <h2 class="section-title">Trusted by <span class="gradient-text">Forward Thinkers</span></h2>
+                    <p class="section-subtitle">Read how HERZONE TECHNOLOGIES helped global founders and businesses elevate their digital identities.</p>
+                </div>
+
+                <!-- Testimonials Slider Container -->
+                <div class="testimonials-slider-container reveal-item">
+                    <div class="testimonials-wrapper" id="testimonials-wrapper">
+                        <!-- Testimonial Slide 1 -->
+                        <div class="testimonial-slide glass-card active">
+                            <div class="quote-mark">“</div>
+                            <p class="testimonial-quote">
+                                HERZONE TECHNOLOGIES turned our complex enterprise concept into an incredibly responsive, beautifully designed SaaS portal. Their attention to pixel accuracy, premium burgundy styling elements, and lightning-fast delivery was highly impressive. Outstanding team!
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/client_avatar_1.png" alt="Malar CEO" class="client-avatar">
+                                <div class="client-details">
+                                    <h4 class="client-name">Malar</h4>
+                                    <span class="client-position">CEO, Nexis Global Ltd</span>
+                                    <div class="client-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Slide 2 -->
+                        <div class="testimonial-slide glass-card">
+                            <div class="quote-mark">“</div>
+                            <p class="testimonial-quote">
+                                The custom advertising posters and social media banners HERZONE designed for our global tech summit were breathtaking. They perfectly captured our premium branding guidelines and helped us generate huge organic traction on Instagram. A elite creative agency!
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/client_avatar_2.png" alt="Anu Marketing Director" class="client-avatar">
+                                <div class="client-details">
+                                    <h4 class="client-name">Anu</h4>
+                                    <span class="client-position">Creative VP, Velo Media</span>
+                                    <div class="client-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Slide 3 -->
+                        <div class="testimonial-slide glass-card">
+                            <div class="quote-mark">“</div>
+                            <p class="testimonial-quote">
+                                Their video editing department is pure genius. They took our raw startup demo footage and edited it into high-retention promo reels that successfully converted viewers into registered clients. The modern visual effects and transition pacing were top notch.
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/client_avatar_3.png" alt="Kalaipriyan Tech Founder" class="client-avatar">
+                                <div class="client-details">
+                                    <h4 class="client-name">Kalaipriyan</h4>
+                                    <span class="client-position">Founder, Coreflow Inc</span>
+                                    <div class="client-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider Controls -->
+                    <div class="slider-controls">
+                        <button class="slider-arrow arrow-prev" id="slider-prev" aria-label="Previous Review"><i class="fa-solid fa-chevron-left"></i></button>
+                        <div class="slider-indicators" id="slider-indicators">
+                            <span class="indicator active" data-index="0"></span>
+                            <span class="indicator" data-index="1"></span>
+                            <span class="indicator" data-index="2"></span>
+                        </div>
+                        <button class="slider-arrow arrow-next" id="slider-next" aria-label="Next Review"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="section-container">
+                <div class="contact-grid">
+                    
+                    <div class="contact-info-panel reveal-item">
+                        <h3 class="section-label">CONTACT US</h3>
+                        <h2 class="section-title">Let's build something <span class="gradient-text">unforgettable</span></h2>
+                        <p class="contact-p">
+                            Have an upcoming project, design campaign, or video project you want to execute? Drop us a line or connect directly via phone. Our design consultation is complimentary.
+                        </p>
+                        
+                        <div class="contact-details-list">
+                            <!-- Contact item 1 -->
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="detail-texts">
+                                    <span>EMAIL US</span>
+                                    <a href="mailto:infoherzonetech@gmail.com" class="detail-link">infoherzonetech@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <!-- Contact item 2 -->
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="detail-texts">
+                                    <span>CALL DIRECT</span>
+                                    <a href="tel:+919342795299" class="detail-link">+91 9342795299</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel glass-card reveal-item">
+                        <h3 class="form-title">Send a Secure Request</h3>
+                        <form id="contact-form" class="premium-form" autocomplete="off">
+                            
+                            <div class="input-group">
+                                <input type="text" id="form-name" required class="form-input">
+                                <label for="form-name" class="floating-label">Full Name</label>
+                                <span class="input-bar"></span>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="email" id="form-email" required class="form-input">
+                                <label for="form-email" class="floating-label">Email Address</label>
+                                <span class="input-bar"></span>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="tel" id="form-phone" required class="form-input">
+                                <label for="form-phone" class="floating-label">Phone Number</label>
+                                <span class="input-bar"></span>
+                            </div>
+
+                            <div class="input-group">
+                                <select id="form-service" required class="form-input select-input">
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="web">Website Development</option>
+                                    <option value="poster">Poster Design</option>
+                                    <option value="video">Video Editing</option>
+                                    <option value="banner">Banner / Branding Design</option>
+                                </select>
+                                <label for="form-service" class="floating-label select-label">Select Service Required</label>
+                                <span class="input-bar"></span>
+                            </div>
+
+                            <div class="input-group text-area-group">
+                                <textarea id="form-message" rows="5" required class="form-input"></textarea>
+                                <label for="form-message" class="floating-label">Project Details / Message</label>
+                                <span class="input-bar"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit btn-glow">
+                                <span>Send Consultation Request</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Floating Action WhatsApp Button -->
+    <a href="https://wa.me/919342795299" class="whatsapp-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat with HERZONE TECHNOLOGIES on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with Us</span>
+    </a>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="section-container footer-grid">
+            
+            <div class="footer-brand-column">
+                <a href="#" class="logo footer-logo">
+                    <img src="assets/logo.png" alt="HERZONE TECHNOLOGIES Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-brand">HERZONE</span>
+                        <span class="logo-sub">TECHNOLOGIES</span>
+                    </div>
+                </a>
+                <p class="footer-brand-text">
+                    Next-generation digital technology boutique agency designing state-of-the-art websites, creative advertisements, cinematic video promos, and branding structures.
+                </p>
+                <div class="footer-social-links">
+                    <a href="https://www.instagram.com/herzone_tech?igsh=YWhjbnl1bmI0bjA=" target="_blank" class="social-icon instagram" aria-label="Instagram Link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/919342795299" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp Link"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links-column">
+                <h4 class="footer-heading">Services</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#services">Website Development</a></li>
+                    <li><a href="#services">Poster Design</a></li>
+                    <li><a href="#services">Video Editing</a></li>
+                    <li><a href="#services">Banner Design</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-column">
+                <h4 class="footer-heading">Quick Navigation</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Agency</a></li>
+                    <li><a href="#portfolio">Our Portfolio</a></li>
+                    <li><a href="#contact">Contact Consultation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-column">
+                <h4 class="footer-heading">Direct Reach</h4>
+                <p class="footer-contact-info">
+                    <i class="fa-solid fa-location-dot"></i> Coimbatore, Tamil Nadu 641006
+                </p>
+                <p class="footer-contact-info">
+                    <i class="fa-solid fa-phone"></i> +91 9342795299
+                </p>
+                <p class="footer-contact-info">
+                    <i class="fa-solid fa-envelope"></i> infoherzonetech@gmail.com
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="section-container footer-bottom-flex">
+                <p class="copyright-text">
+                    &copy; 2026 HERZONE TECHNOLOGIES. All rights reserved. Made with luxury craftsmanship.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Premium Glassmorphic Thank You Modal Card -->
+    <div class="thank-you-modal" id="thank-you-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-card glass-card">
+            <div class="modal-badge">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h2 class="modal-title">Request Received</h2>
+            <p class="modal-text">
+                Thank you, <span id="modal-client-name" class="modal-highlight">Guest</span>! We have successfully registered your inquiry for <span id="modal-client-service" class="modal-highlight">Website Development</span>.
+            </p>
+            <p class="modal-subtext">
+                A digital consultant from **HERZONE TECHNOLOGIES** will contact you shortly.
+            </p>
+            <button class="btn btn-primary modal-close-btn" id="modal-close-btn">
+                <span>Continue Exploring</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Custom Script File -->
+    <script src="script.js"></script>
+
+    <!-- ══════════════════════════════════════════════════════════
+         IMAGE LIGHTBOX MODAL
+         ══════════════════════════════════════════════════════════ -->
+    <div class="image-lightbox" id="image-lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <div class="image-lightbox-backdrop" id="image-lightbox-backdrop"></div>
+        <div class="image-lightbox-container">
+            <button class="image-lightbox-close" id="image-lightbox-close" aria-label="Close image">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <img id="lightbox-image" class="lightbox-image-viewer" src="" alt="Portfolio Image">
+        </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════
+         VIDEO LIGHTBOX MODAL
+         Opens when the play button on the video portfolio card is clicked.
+         ══════════════════════════════════════════════════════════ -->
+    <div class="video-lightbox" id="video-lightbox" role="dialog" aria-modal="true" aria-label="Video player">
+        <div class="video-lightbox-backdrop" id="video-lightbox-backdrop"></div>
+        <div class="video-lightbox-container">
+            <button class="video-lightbox-close" id="video-lightbox-close" aria-label="Close video">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <video
+                id="lightbox-video"
+                class="lightbox-video-player"
+                controls
+                playsinline
+                preload="none"
+                src="assets/Portfoilo_video.mp4"
+            >
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+
+    <script>
+    /* ── Video Lightbox Logic ──────────────────────────────────────── */
+    (function () {
+        const lightbox   = document.getElementById('video-lightbox');
+        const backdrop   = document.getElementById('video-lightbox-backdrop');
+        const closeBtn   = document.getElementById('video-lightbox-close');
+        const videoEl    = document.getElementById('lightbox-video');
+
+        /* All triggers that open the lightbox */
+        const triggers = [
+            document.getElementById('portfolio-play-btn'),
+            document.querySelector('.video-open-btn'),
+            document.getElementById('video-portfolio-card'),
+        ].filter(Boolean);
+
+        function openLightbox(e) {
+            /* Don't open if they clicked the card but not a trigger button */
+            if (e.currentTarget === document.getElementById('video-portfolio-card')) {
+                if (!e.target.closest('.video-play-btn, .video-open-btn, .portfolio-hover-overlay')) return;
+            }
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            videoEl.play();
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+            videoEl.pause();
+            videoEl.currentTime = 0;
+        }
+
+        triggers.forEach(el => el.addEventListener('click', openLightbox));
+        if (closeBtn)  closeBtn.addEventListener('click',   closeLightbox);
+        if (backdrop)  backdrop.addEventListener('click',   closeLightbox);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                closeLightbox();
+            }
+        });
+
+        /* Seek video to first frame so thumbnail is visible */
+        const thumbVideo = document.querySelector('.portfolio-video-thumb');
+        if (thumbVideo) {
+            thumbVideo.addEventListener('loadedmetadata', () => {
+                thumbVideo.currentTime = 0.1;
+            });
+        }
+        /* ── Image Lightbox Logic ──────────────────────────────────────── */
+        const imageLightbox = document.getElementById('image-lightbox');
+        const imageBackdrop = document.getElementById('image-lightbox-backdrop');
+        const imageCloseBtn = document.getElementById('image-lightbox-close');
+        const imageEl = document.getElementById('lightbox-image');
+
+        const imageTriggers = document.querySelectorAll(
+            'a.portfolio-view-btn:not(.video-open-btn), .portfolio-item:not(.video-portfolio-item) .portfolio-image-wrapper'
+        );
+
+        function openImageLightbox(e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const portfolioItem = this.closest('.portfolio-item');
+            const viewLink = portfolioItem?.querySelector('a.portfolio-view-btn:not(.video-open-btn)');
+            const image = portfolioItem?.querySelector('.portfolio-img');
+            const src = this.getAttribute('href') || viewLink?.getAttribute('href') || image?.getAttribute('src');
+
+            if (src) {
+                imageEl.src = src;
+                imageLightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeImageLightbox() {
+            imageLightbox.classList.remove('active');
+            document.body.style.overflow = '';
+            setTimeout(() => { imageEl.src = ''; }, 350);
+        }
+
+        imageTriggers.forEach(el => el.addEventListener('click', openImageLightbox));
+        if (imageCloseBtn) imageCloseBtn.addEventListener('click', closeImageLightbox);
+        if (imageBackdrop) imageBackdrop.addEventListener('click', closeImageLightbox);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && imageLightbox.classList.contains('active')) {
+                closeImageLightbox();
+            }
+        });
+    })();
+    </script>
+
+</body>
+</html>
